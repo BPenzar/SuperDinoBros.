@@ -1,2 +1,6 @@
 # SuperDinoBros.
-Super Dino Bros. -- A Sidescroller Dino JumpNRun Advendture.
+Super Dino Bros.   
+
+
+
+A Sidescroller Dino JumpNRun Advendture.
