@@ -10,7 +10,7 @@ public class movePlayer : MonoBehaviour {
 	public float standardgeschwindigkeit = 5.0f;
 
 	private float vertivalVelocity = 0.0f;
-	private float gravity = 30.0f;
+	private float gravity = 80.0f;
 
 	private bool isDead = false;
 	//private float startTime;
@@ -49,7 +49,7 @@ public class movePlayer : MonoBehaviour {
 		{
 			vertivalVelocity = -0.5f;	
 			if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButton (0)){
-				vertivalVelocity += 15f;
+				vertivalVelocity += 25f;
 			}
 		}
 		//Fallen
