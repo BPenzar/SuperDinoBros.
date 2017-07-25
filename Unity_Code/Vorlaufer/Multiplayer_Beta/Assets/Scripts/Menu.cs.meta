@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: b98370526a0a9544589a6bc66a27303f
+timeCreated: 1500908820
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - manager: {instanceID: 0}
+  - multiPlayer: {instanceID: 0}
+  - mainMenu: {instanceID: 0}
+  - level: {instanceID: 0}
+  - ready: {instanceID: 0}
+  - single: {instanceID: 0}
+  - eiswelt: {instanceID: 0}
+  - dschungel: {instanceID: 0}
+  - wueste: {instanceID: 0}
+  - multi: {instanceID: 0}
+  - back: {instanceID: 0}
+  - sound: {instanceID: 0}
+  - joinLobby: {instanceID: 0}
+  - createLobby: {instanceID: 0}
+  - readyButton: {instanceID: 0}
+  - OffSprite: {instanceID: 0}
+  - OnSprite: {instanceID: 0}
+  - highscoreText: {fileID: 114881992383500674, guid: d4f594e5f95ab45a38c8a18f2c122284,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
