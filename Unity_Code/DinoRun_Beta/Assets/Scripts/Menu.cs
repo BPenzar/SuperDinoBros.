@@ -79,9 +79,10 @@ public class Menu : MonoBehaviour {
     public void iceLevel()
 	{
 		FindObjectOfType<AudioManager> ().higherPitch("InGame");
-        audioHandling();
-		if((int)PlayerPrefs.GetFloat ("Highscore") >= 1000)
-        	SceneManager.LoadScene("Eiswelt");
+		if ((int)PlayerPrefs.GetFloat ("Highscore") >= 1000) {
+			audioHandling();	
+			SceneManager.LoadScene ("Eiswelt");
+		}
     }
     public void forestLevel()
 	{
@@ -91,10 +92,11 @@ public class Menu : MonoBehaviour {
     }
     public void desertLevel()
     {
-        audioHandling();
 		FindObjectOfType<AudioManager> ().lowerPitch("InGame");
-		if((int)PlayerPrefs.GetFloat ("Highscore") >= 500)
-        	SceneManager.LoadScene("Wueste");
+		if ((int)PlayerPrefs.GetFloat ("Highscore") >= 500) {
+			audioHandling();
+			SceneManager.LoadScene ("Wueste");
+		}
     }
 
     public void multiPress()
